@@ -80,4 +80,36 @@ Renk paleti kullanılmıştır.
     display: flex;
     justify-content: center;
 }
+
+.information-of-me button{
+    color: rgba(224, 188, 24, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.educations{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.educations > div{
+    justify-content: end;
+    display: inline-flex;
+    margin: 2vh;
+}
+
+.main-educations{
+    background-color:#d35d6e ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#educations-name{
+    justify-content: center;
+    align-self: center;
+    font-size: 2vw;
+}
  
