@@ -23,6 +23,11 @@ Renk paleti kullanılmıştır.
     background: #f5f0f0;
 }
 
+header{
+    position: fixed;
+    top: 0; 
+}
+
 .author-name {
     color: black;
     padding-left: 10vw;
@@ -58,10 +63,16 @@ Renk paleti kullanılmıştır.
 }
 
 .photo-of-me {
-    margin-top: 2vh;
+    margin-top: 7vh;
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.information-of-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .photo-of-me img{
@@ -72,24 +83,24 @@ Renk paleti kullanılmıştır.
 .information-of-me h1{
     display: flex;
     justify-content: center;
+    font-size: 3.5vw;
 }
 
 .information-of-me h4{
     color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
+    font-size: 1.5vw;
+
 }
 #teacher{
     color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
+    font-size: 2.5vw;
+
 }
 
-.information-of-me button{
-    color: rgba(224, 188, 24, 0.5);
-    display: flex;
-    justify-content: center;
-}
 
 .educations{
     justify-content: space-between;
@@ -133,10 +144,12 @@ Renk paleti kullanılmıştır.
 
 .educations-details h3{
     align-self: center;
+    font-size: 1vw;
 }
 
 .educations-details h5{
     align-self: center;
+    font-size: 0.8vw;
 }
 
 .lessons-list{
@@ -168,6 +181,10 @@ Renk paleti kullanılmıştır.
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.lesson-details div{
+    font-size: 1.5vw;
 }
 
 #lessons-top-text{
