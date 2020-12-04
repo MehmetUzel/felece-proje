@@ -1,0 +1,83 @@
+/*
+https://colorhunt.co/palette/219735
+Renk paleti kullanılmıştır.
+#d35d6e Red
+#efb08c Orange
+#f8d49d Yellow
+#5aa469 Green
+*/
+
+.flex-container {
+    display: inline-flex;
+    align-items: center;
+    background-color:#d80f2d ;
+    width: 100vw;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    background: #f5f0f0;
+}
+
+.author-name {
+    color: #d35d6e;
+    padding-left: 5vw;
+    font-size: 2.5vw;
+}
+
+.flex-container ul {
+    font-size: 1.5vw;
+    display: inline-flex;
+    padding-left: 10vw;
+    list-style-type: none;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+.flex-container nav {
+    margin-left: 25vw;
+}
+
+.flex-container li {
+    justify-content: flex-end;
+    color: #a5515e;
+    margin-right:3vw ;
+    display: flex;
+    height: 1vh;
+
+}
+.flex-container a {
+    color: #a5515e;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.photo-of-me {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.photo-of-me img{
+    border-radius: 50%;
+    block-size: 20vw;
+}
+
+.information-of-me h1{
+    display: flex;
+    justify-content: center;
+}
+
+.information-of-me h4{
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+ 
