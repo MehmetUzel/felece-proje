@@ -10,7 +10,7 @@ Renk paleti kullanılmıştır.
 .flex-container {
     display: inline-flex;
     align-items: center;
-    background-color:#d80f2d ;
+    background-color:#d35d6e ;
     width: 100vw;
   }
 
@@ -24,9 +24,9 @@ Renk paleti kullanılmıştır.
 }
 
 .author-name {
-    color: #d35d6e;
-    padding-left: 5vw;
-    font-size: 2.5vw;
+    color: black;
+    padding-left: 10vw;
+    font-size: 1.5vw;
 }
 
 .flex-container ul {
@@ -41,21 +41,20 @@ Renk paleti kullanılmıştır.
   }
 
 .flex-container nav {
-    margin-left: 25vw;
+    margin-left: 35vw;
 }
 
 .flex-container li {
     justify-content: flex-end;
-    color: #a5515e;
     margin-right:3vw ;
     display: flex;
     height: 1vh;
 
 }
 .flex-container a {
-    color: #a5515e;
+    color: black;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .photo-of-me {
@@ -80,6 +79,11 @@ Renk paleti kullanılmıştır.
     display: flex;
     justify-content: center;
 }
+#teacher{
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
 
 .information-of-me button{
     color: rgba(224, 188, 24, 0.5);
@@ -88,13 +92,14 @@ Renk paleti kullanılmıştır.
 }
 
 .educations{
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-
+    margin-left: 5vw;
+    margin-right: 5vw;    
 }
 
-.educations > div{
+.educations div{
     justify-content: end;
     display: inline-flex;
     margin: 2vh;
@@ -110,6 +115,87 @@ Renk paleti kullanılmıştır.
 #educations-name{
     justify-content: center;
     align-self: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    margin-top: 1vw;
 }
  
+.educations img {
+    max-width: 5.5vh;
+    align-self: center;
+}
+
+.educations-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+}
+
+.educations-details h3{
+    align-self: center;
+}
+
+.educations-details h5{
+    align-self: center;
+}
+
+.lessons-list{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+.lessons-list div{
+    margin-top: 2vw;
+}
+
+.lesson{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lesson div{
+    margin-right: 1vw;
+}
+
+.lesson img{
+    width: 10vw;
+    height: 10vh;
+}
+
+.lesson-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#lessons-top-text{
+    justify-content: center;
+    align-self: center;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+.lesson-details div{
+    line-height: 3px;
+}
+
+.lessons-together {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.all-lesson-items{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+}
+#lesson-header{
+    font-style: oblique;
+    font-weight: bold;
+}
